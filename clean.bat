@@ -13,7 +13,7 @@ ECHO "cleaning IE"
 del /S /Q "%USERPROFILE%\AppData\Local\Microsoft\Windows\Temporary Internet Files\*"
 del /S /Q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Cookies\*"
 del /S /Q "%USERPROFILE%\AppData\Local\Microsoft\Windows\History\*"
-del /S /Q "%USERPROFILE&"\AppData\LocalLow\Microsoft\Internet Explorer\*"
+del /S /Q "%USERPROFILE%\AppData\LocalLow\Microsoft\Internet Explorer\*"
 REG DELETE "HKCU\Software\Microsoft\Internet Explorer" /f
 
 GOTO END
